@@ -1,0 +1,16 @@
+<div class="container-small-card">
+    <a [routerLink]="['content', id]">
+        <div class="small-card-img">
+            <img src="{{ imageUrl }}" alt="{{imageAlt}}">
+        </div>
+
+        <div class="small-card-text">
+            <div class="small-card-date">
+                <span>{{dateNews}}</span>
+            </div>
+            <div class="small-card-title">
+                <h1>{{titleNews}}</h1>
+            </div>
+        </div>
+    </a>
+</div>

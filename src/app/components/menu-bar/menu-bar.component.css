@@ -1,0 +1,15 @@
+.container-nav-menu{
+    padding: 1rem 0;
+}
+.container-nav-menu > ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.container-nav-menu > ul > li{
+    list-style: none;
+}
+
+.container-nav-menu > ul > li:hover a{
+    color: blueviolet;
+}

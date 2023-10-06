@@ -1,0 +1,14 @@
+.container-menu-title{
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    border-top: 2px solid #1e1e1e;
+    border-bottom: 2px solid #1e1e1e;
+}
+
+.container-menu-title > h1{
+    display: flex;
+    justify-content: center;
+    padding: .4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

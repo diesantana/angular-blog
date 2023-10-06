@@ -1,0 +1,20 @@
+<div class="container-big-card">
+    <a [routerLink]="['content', id]">
+        <div class="big-card-img">
+            <img src="{{imageUrl}}"
+                alt="{{imageAlt}}">
+        </div>
+
+        <div class="big-card-date">
+            <span>{{dateNews}}</span>
+        </div>
+
+        <div class="big-card-title">
+            <h1>{{titleNews}}</h1>
+        </div>
+
+        <div class="big-card-description">
+            <p>{{description}}</p>
+        </div>
+    </a>
+</div>

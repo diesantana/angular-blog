@@ -1,0 +1,22 @@
+@media(min-width: 340px){
+    .container-menu-title > h1 {
+        font-size: 3rem;
+        padding: .5rem;
+    }
+} 
+@media(min-width: 576px) {
+    .container-menu-title > h1 {
+        font-size: 5rem;
+        padding: 1rem;
+    }
+}
+@media(min-width: 768px) {
+    .container-menu-title > h1 {
+        font-size: 8rem;
+    }
+}
+@media(min-width: 992px) {
+    .container-menu-title > h1 {
+        font-size: 9rem;
+    }
+}
